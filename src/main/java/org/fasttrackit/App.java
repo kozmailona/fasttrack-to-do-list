@@ -4,10 +4,18 @@ package org.fasttrackit;
  * Hello world!
  *
  */
-public class App 
+public class App
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public static class Test   {
+        public static void main (String args[ ]) {
+            String a = new String("Learn Java");
+            String b = "Learn Java";
+            if(a==b){
+                System.out.println("a == b");
+            }
+            if(a.equals(b)){
+                System.out.println("a equals b");
+            }
+        }
     }
 }
